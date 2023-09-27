@@ -1,0 +1,27 @@
+section {
+  flex: 0 1 300px;
+  display: flex;
+  justify-content: space-between;
+  border: solid red 5px;
+}
+.box {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  background-color: lightblue;
+  font-size: 50px;
+  text-align: center;
+}
+
+.box:first-child {
+  flex: 0 1 1000px;
+}
+
+.box:second-child {
+  flex: 1 2 500px;
+}
+
+.box:third-child {
+  flex: 0 1 1000px;
+}
